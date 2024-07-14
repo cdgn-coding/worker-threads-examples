@@ -1,0 +1,4 @@
+Tokyo: max 81.7166
+kyo: max 45.8781
+Tokyo: min -54.9333
+kyo: min -2.85

@@ -1,6 +1,8 @@
 const cp = require('node:child_process');
 const n = cp.fork(`${__dirname}/child.js`);
 
+console.log(cp); // Prints: true
+
 n.on('message', (m) => {
   console.log('PARENT got message:', m);
 });
